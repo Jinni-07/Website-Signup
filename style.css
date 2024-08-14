@@ -21,9 +21,10 @@ form{
 div{
   font-family: 'Courier New', Courier, monospace;
   font-size: large;
-  &:hover{
-    color: rgb(62, 3, 3);
-  }
+}
+
+.content:hover{
+  color: rgb(62, 3, 3);
 }
 
 h1{
@@ -45,9 +46,6 @@ input{
   width: 60px;
   background-color: #360404;
   border-color: #360404;
-  display: flex;
-  align-items: center;
-  justify-content: left;
   
   &:hover{
     background-color: #931919;
