@@ -1,0 +1,56 @@
+body  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('leave.jpg');
+  background-size: cover;
+  background-color: rgb(36, 90, 80);
+  color: rgb(178, 213, 206);
+}
+form{
+  inline-size: 190px ;
+  border: 2px solid rgb(211, 211, 211);
+  border-radius: 7%;
+  height: 250px;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+
+div{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  &:hover{
+    color: rgb(62, 3, 3);
+  }
+}
+
+h1{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+input{
+  width: 120px;
+  background-color: #9b9b9b;
+  border: 1px solid #e3d5d5;
+  color: whitesmoke;
+  border-radius: 5px;
+  background: transparent;
+
+}
+
+
+#submit-res{
+  width: 60px;
+  background-color: #360404;
+  border-color: #360404;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  
+  &:hover{
+    background-color: #931919;
+
+  }
+}
