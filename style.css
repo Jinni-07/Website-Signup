@@ -23,8 +23,13 @@ div{
   font-size: large;
 }
 
-.content:hover{
-  color: rgb(62, 3, 3);
+
+
+.content{
+    transition: 0.3s;
+  &:hover{
+    color: #360404;
+  }
 }
 
 h1{
